@@ -1,0 +1,79 @@
+.bg_blur img {
+  height: 1050px;
+  width: 800px;
+}
+
+.login_page p {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  text-shadow: 3px 3px 10px #fff;
+}
+.loginregister {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.loginregister button {
+  cursor: pointer;
+}
+.loginpage, .registerpage {
+  font-size: 20px;
+  border: none;
+  background-color: inherit;
+  color: blueviolet;
+  text-shadow: 3px 3px 10px;
+}
+
+.loginpage {
+  border-right: 3px dotted;
+  border-color: blueviolet;
+}
+
+.login_page {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  background-color: pink;
+  box-shadow: 5px 5px 50px;
+  font-family: sans-serif;
+}
+
+.login_form {
+  display: grid;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 3px 3px 8px;
+  margin-top: 30px;
+}
+
+.login_form input {
+  width: 200px;
+  height: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.login_form a {
+  font-size: 12px;
+  text-shadow: none;
+}
+
+.login {
+  height: 30px;
+  width: 100px;
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 3px solid gray;
+  margin-left: 50px;
+  box-shadow: 3px 3px 8px;
+  color: dimgrey;
+  cursor: pointer;
+}
